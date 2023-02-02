@@ -62,8 +62,8 @@ function disminuir() {
         encender(6);
         encender(7);
         encender(8);
-        valor = 256;
-        document.getElementById("valor_decimal").innerHTML = "256";
+        valor = 128;
+        document.getElementById("valor_decimal").innerHTML = "128";
     }
 }
 
