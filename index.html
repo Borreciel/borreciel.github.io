@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="casilla informacion">
+            <div class="info">?</div>
+        </div>
+
+        <div class="casilla lblcontador">
+            <div class="contador" id="valor_decimal">0</div>
+        </div>
+
+        <div class="casilla btnaumen" id="+++">
+            <div class="aumen">+</div>
+        </div>
+        <div class="casilla btndismi" id="---">
+            <div class="dismi">-</div>
+        </div>
+
+        <div class="casilla tarjeta" id="no8">
+            <div class="apagado">0</div>
+            <div class="encendido">1</div>
+        </div>
+        <div class="casilla tarjeta" id="no7">
+            <div class="apagado">0</div>
+            <div class="encendido">1</div>
+        </div>
+        <div class="casilla tarjeta" id="no6">
+            <div class="apagado">0</div>
+            <div class="encendido">1</div>
+        </div>
+        <div class="casilla tarjeta" id="no5">
+            <div class="apagado">0</div>
+            <div class="encendido">1</div>
+        </div>
+        <div class="casilla tarjeta" id="no4">
+            <div class="apagado">0</div>
+            <div class="encendido">1</div>
+        </div>
+        <div class="casilla tarjeta" id="no3">
+            <div class="apagado">0</div>
+            <div class="encendido">1</div>
+        </div>
+        <div class="casilla tarjeta" id="no2">
+            <div class="apagado">0</div>
+            <div class="encendido">1</div>
+        </div>
+        <div class="casilla tarjeta" id="no1">
+            <div class="apagado">0</div>
+            <div class="encendido">1</div>
+        </div>
+    </div>
+
+    <script>
+        let boton_aumen = document.getElementById("+++");
+        boton_aumen.addEventListener("click", aumentar);
+        let boton_dismi = document.getElementById("---");
+        boton_dismi.addEventListener("click", disminuir);
+    </script>
+</body>
+</html>
